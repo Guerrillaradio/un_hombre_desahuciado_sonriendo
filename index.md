@@ -8,7 +8,6 @@
 <div><font color="#00ff00">en la cúspide de una onda, al igual que un surfista</font></div><div></div><div><font color="#00ff00"> </font><font color="#00ff00"> </font></div>
 <div></div>  
 
-
 {% raw %}
 <script>
 (function () {
@@ -50,6 +49,7 @@
 })();
 </script>
 {% endraw %}
+
 
 
 
