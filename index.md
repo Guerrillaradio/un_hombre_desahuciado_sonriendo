@@ -8,11 +8,12 @@
 <div><font color="#00ff00">en la cúspide de una onda, al igual que un surfista</font></div><div></div><div><font color="#00ff00"> </font><font color="#00ff00"> </font></div>
 <div></div>  
 
+
 {% raw %}
 <script>
 (function () {
   const ACTIVATION_CLICKS = 7;
-  const LOOP_DURATION_MS = 180000; // 3 minutos
+  const LOOP_DURATION_MS = 180000;
 
   const clicksKey = 'heartClicks';
   const loopUntilKey = 'loopUntil';
@@ -33,11 +34,13 @@
     const here = window.location.href;
 
     if (here.includes('/Q/')) {
-      window.location.href = 'https://guerrillaradio.github.io/un_hombre_desahuciado_sonriendo/';
+      window.location.href =
+        'https://guerrillaradio.github.io/un_hombre_desahuciado_sonriendo/';
     }
 
     if (here.includes('un_hombre_desahuciado_sonriendo')) {
-      window.location.href = 'https://guerrillaradio.github.io/Q/';
+      window.location.href =
+        'https://guerrillaradio.github.io/Q/';
     }
   }
 
@@ -47,6 +50,7 @@
 })();
 </script>
 {% endraw %}
+
 
 
 
