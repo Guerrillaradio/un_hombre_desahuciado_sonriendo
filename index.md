@@ -8,6 +8,7 @@
 <div><font color="#00ff00">en la cúspide de una onda, al igual que un surfista</font></div><div></div><div><font color="#00ff00"> </font><font color="#00ff00"> </font></div>
 
 
+{% raw %}
 <script>
 (function () {
   const ACTIVATION_CLICKS = 7;
@@ -45,5 +46,8 @@
   }
 })();
 </script>
+{% endraw %}
+
+
 
 
